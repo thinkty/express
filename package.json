@@ -1,7 +1,7 @@
 {
-  "name": "source-chat",
+  "name": "express",
   "version": "1.0.0",
-  "description": "A template server for managing intents on Dialogflow using the Dialogflow Editor and also serving as a chatbot for various chat application platforms",
+  "description": "A template server with logging and testing enabled",
   "main": "app.js",
   "scripts": {
     "start": "./node_modules/.bin/nodemon src/app.js",
@@ -15,25 +15,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thinkty/source-chat.git"
+    "url": "git+https://github.com/thinkty/express.git"
   },
   "author": "Tae Yoon Kim",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thinkty/source-chat/issues"
+    "url": "https://github.com/thinkty/express/issues"
   },
-  "homepage": "https://github.com/thinkty/source-chat",
+  "homepage": "https://github.com/thinkty/express",
   "dependencies": {
-    "@google-cloud/dialogflow": "^3.2.0",
-    "axios": "^0.20.0",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
-    "discord.js": "^12.3.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongoose": "^5.10.0",
     "morgan": "^1.10.0",
-    "uuid": "^8.3.0",
     "winston": "^3.3.3"
   },
   "devDependencies": {
